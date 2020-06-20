@@ -1,0 +1,12 @@
+﻿PacketOverSslClient/.vs
+PacketOverSslClient/ClassLibraryA/bin
+PacketOverSslClient/ClassLibraryA/obj/Debug
+PacketOverSslClient/ClassLibraryA/obj
+PacketOverSslClient/DemoUseLowerLib/bin
+PacketOverSslClient/DemoUseLowerLib/obj
+MServerSSL/.vs
+MServerSSL/bin
+MServerSSL/obj
+PacketOverSslClient/Demo/bin
+PacketOverSslClient/Demo/obj
+PacketOverSslClient/Demo/Demo.csproj.user

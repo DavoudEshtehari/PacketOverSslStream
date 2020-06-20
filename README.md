@@ -18,10 +18,11 @@ If you can run it successfully with a valid certification you will see `Waiting 
 
    `[makecert] -sr LocalMachine -ss root -r -n "CN=your machine name" -sky exchange -sk 123456`
    
+- Do not forget to replace your certificate `Thumbprint` in `RunServer` function or find by other methods in cetificate store.
 - If firewall ask you to grant access to the MServerSSL, approve it.
 
 ## PacketOverSslClient
-There are two project on client side.And The purpose of adding `CllassLibraryA` is just for demonstrating the issue.
+There are two project on client side. And the purpose of adding `CllassLibraryA` is just for demonstrating the issue.
 
 - If you use a same machine to run the client you do not need manupulate code. It automatically uses the machine name.
-- You will pass `AuthenticateAsClient` if your server is running with a valid certificate as mention above. And you will see the stream information on the server console before seeing the `Stack Overflow` exception.
+- You will pass over from `AuthenticateAsClient` if your server is running with a valid certificate as mentioned above. And you will see the stream information on the server console before seeing the `Stack Overflow` exception on client console.
