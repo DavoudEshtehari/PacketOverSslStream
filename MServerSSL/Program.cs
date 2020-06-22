@@ -29,7 +29,7 @@ namespace Examples.System.Net
                 }
                 else
                 {
-                    // makecert -sr LocalMachine -ss root -r -n "CN=VANLWIN1" -sky exchange -sk 123456
+                    // makecert -sr LocalMachine -ss root -r -n "CN=your machine name" -sky exchange -sk 123456
                     serverCertificate = certificates[0];
                 }
             }
